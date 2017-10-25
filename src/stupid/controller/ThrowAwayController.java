@@ -3,11 +3,13 @@ package stupid.controller;
 import stupid.model.PopupController;
 import java.util.List;
 import java.util.ArrayList;
+import stupid.model.ThirdStupid;
 
 public class ThrowAwayController 
 {
-	private String[] words;
+	private String[] words  = {"Eli's", "birthday", "is", "on", "Friday."};
 	private int [] numbers;
+	private ThirdStupid [] stupids;
 	
 	private PopupController display;
 
@@ -25,6 +27,9 @@ public class ThrowAwayController
 		numbers [1] = 2;
 		numbers [2] = 3;
 		//... keep  going or use a loop
+		//words = new String[40];
+		words = new String[] { "He", "will", "be", "eight", "years old"};
+		
 		
 		for (int index = 0; index < numbers.length; index += 1)
 		{
